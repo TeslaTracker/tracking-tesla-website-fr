@@ -1,8 +1,9 @@
+temp/tesla-website-fr/api/tesla/footer/html/v1.html
 temp/tesla-website-fr/api/tesla/header/v1.json
+temp/tesla-website-fr/api/tesla/header/v2.json
 temp/tesla-website-fr/charging.html
 temp/tesla-website-fr/cybertruck.html
 temp/tesla-website-fr/findus/list/services.html
-temp/tesla-website-fr/findus/list/stores.html
 temp/tesla-website-fr/findus/list/superchargers.html
 temp/tesla-website-fr/index.html
 temp/tesla-website-fr/model3.html
