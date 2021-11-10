@@ -1,3 +1,4 @@
+temp/tesla-website-fr/charging.html
 temp/tesla-website-fr/cybertruck.html
 temp/tesla-website-fr/findus/list/services.html
 temp/tesla-website-fr/findus/list/stores.html
@@ -8,4 +9,5 @@ temp/tesla-website-fr/models.html
 temp/tesla-website-fr/modelx.html
 temp/tesla-website-fr/modely.html
 temp/tesla-website-fr/powerwall.html
+temp/tesla-website-fr/roadster.html
 temp/tesla-website-fr/solarroof.html
