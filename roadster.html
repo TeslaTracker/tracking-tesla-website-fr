@@ -5034,7 +5034,10 @@
                         }
                       </style>
 
-                      <header class="reserve-header tds-header-main">
+                      <header
+                        class="reserve-header tds-header-main"
+                        style="z-index: 0"
+                      >
                         <div class="tds-header-main--container">
                           <div class="tds-container">
                             <h1 class="tds-header-main--logo_container">
@@ -5079,7 +5082,7 @@
                       </header>
 
                       <div id="wrapper">
-                        <div id="hero">
+                        <div id="hero" class="active">
                           <div class="image-bg">
                             <!-- Forces the hero image to load before the rest -->
                             <picture style="display: none">
@@ -5118,15 +5121,64 @@
                                     <div class="speedometer-circle">
                                       <div
                                         class="speedometer-circle-inner"
+                                        style="
+                                          transform: matrix3d(
+                                            -0.988075,
+                                            -0.153971,
+                                            0,
+                                            0,
+                                            0.153971,
+                                            -0.988075,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            1,
+                                            0,
+                                            0,
+                                            0,
+                                            0,
+                                            1
+                                          );
+                                        "
                                       ></div>
                                     </div>
-                                    <div class="speedometer-needle"></div>
+                                    <div
+                                      class="speedometer-needle"
+                                      style="
+                                        transform: matrix3d(
+                                          0.154825,
+                                          -0.987942,
+                                          0,
+                                          0,
+                                          0.987942,
+                                          0.154825,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1,
+                                          0,
+                                          0,
+                                          0,
+                                          0,
+                                          1
+                                        );
+                                      "
+                                    ></div>
                                   </div>
                                   <div class="numbers">
                                     <div class="number">
                                       <div
                                         class="number-inner"
                                         data-timeincrement="2"
+                                        style="
+                                          transform: translate3d(
+                                            0px,
+                                            -1.58453px,
+                                            0px
+                                          );
+                                        "
                                       ></div>
                                     </div>
                                     <div>,</div>
@@ -5134,6 +5186,13 @@
                                       <div
                                         class="number-inner"
                                         data-timeincrement="1"
+                                        style="
+                                          transform: translate3d(
+                                            0px,
+                                            -0.798221px,
+                                            0px
+                                          );
+                                        "
                                       ></div>
                                     </div>
                                     <div><sub>s</sub></div>
@@ -5172,7 +5231,7 @@
                               </li>
                             </ul>
 
-                            <div class="arrow-down"></div>
+                            <div class="arrow-down" style="opacity: 0"></div>
                           </div>
                         </div>
 
@@ -5427,6 +5486,7 @@
             action="/fr_FR/roadster"
             method="post"
             accept-charset="UTF-8"
+            novalidate=""
           >
             <div>
               <div id="tesla-insider-details">
@@ -5466,6 +5526,7 @@
                       value=""
                       size="60"
                       maxlength="50"
+                      data-parsley-id="10"
                     />
                   </div>
                 </div>
@@ -5489,6 +5550,7 @@
                     tds-btn--black
                     form-submit
                     tds-btn
+                    ajax-processed
                   "
                   type="submit"
                   id="edit-submit-ti-ajax"
@@ -5526,11 +5588,17 @@
                       size="20"
                       maxlength="128"
                       class="form-text tds-text-input"
+                      data-parsley-id="12"
                     />
                   </div>
                 </div>
               </div>
             </div>
+            <input type="hidden" name="browser_type" value="Chrome" /><input
+              type="hidden"
+              name="browser_version"
+              value="93"
+            /><input type="hidden" name="browser_os" value="Linux" />
           </form>
         </div>
       </div>
