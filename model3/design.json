@@ -1,5 +1,5 @@
 {
-  "date": 1637024156425,
+  "date": 1637032607008,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -1718,7 +1718,7 @@
   },
   "Lexicon.m3": {
     "id": 2148,
-    "effective_date": "2021-11-12T01:56:00.000Z",
+    "effective_date": "2021-11-15T19:52:00.000Z",
     "market": "US",
     "product": "m3",
     "factory": "GF00",
@@ -1730,7 +1730,7 @@
         "toggle_amount": { "if": { "selected": { "amount": 750 } } }
       }
     },
-    "name": "Marketing US 2021.Nov.12 2148.3734.3598",
+    "name": "Marketing US 2021.Nov.15 2148.3734.3728",
     "groups": [
       {
         "code": "TRIM",
@@ -5396,12 +5396,12 @@
                 "condition_state": "set",
                 "target_property": "price",
                 "condition_any_code": [
-                  "$MT313",
-                  "$MT307",
-                  "$MT318",
                   "$MT319",
+                  "$MT307",
                   "$MT300",
-                  "$MT306"
+                  "$MT318",
+                  "$MT306",
+                  "$MT313"
                 ]
               }
             ]
@@ -6117,7 +6117,12 @@
         "name": "heated steering wheel and rear seats",
         "description": "heated steering wheel and rear seats",
         "long_name": "heated steering wheel and rear seats",
-        "extra_copy": []
+        "extra_copy": [],
+        "price": 0,
+        "pricing": [
+          { "type": "base", "value": 0, "context": "USD" },
+          { "type": "upgrade", "value": 300, "context": "USD" }
+        ]
       },
       "$DV2W": {
         "code": "$DV2W",
@@ -17645,6 +17650,6 @@
     ],
     "copy_id": 3734,
     "language": "en",
-    "pricing_id": 3598
+    "pricing_id": 3728
   }
 }
