@@ -1,5 +1,2 @@
-temp/tesla-website-fr/index.html
-temp/tesla-website-fr/model3/design.json
-temp/tesla-website-fr/models/design.json
+temp/tesla-website-fr/cybertruck/design.json
 temp/tesla-website-fr/modelx/design.json
-temp/tesla-website-fr/modely/design.json
