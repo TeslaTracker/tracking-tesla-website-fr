@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE",
-            "STUD.TR",
+            "STUD_3QTR",
             "SIDE",
             "STUD_SIDEVIEW",
             "STUD_FRONT34",
@@ -235,9 +235,9 @@
             "DRIVE"
           ]
         },
-        "STUD.TR": {
+        "STUD_3QTR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD.TR",
+          "view": "STUD_3QTR",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -811,7 +811,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": false,
-      "assetView": "STUD.TR",
+      "assetView": "STUD_3QTR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -823,11 +823,11 @@
             ]
           }
         },
-        { "view": "STUD.TR" }
+        { "view": "STUD_3QTR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD.TR",
+        "view": "STUD_3QTR",
         "bkba": 1,
         "zoom": 1
       },
@@ -3669,7 +3669,7 @@
             "type": "asset",
             "content": [
               {
-                "url": "MODEL3/UI/Chargeport..jpg",
+                "url": "MODEL3/UI/Chargeport_3Y.jpg",
                 "type": "image",
                 "ratio": "slice"
               }
@@ -12181,7 +12181,7 @@
         "extra_content": [
           {
             "type": "action",
-            "content": [{ "type": "hero-update", "view": "STUD.TR" }]
+            "content": [{ "type": "hero-update", "view": "STUD_3QTR" }]
           },
           {
             "type": "price_indicator_override",

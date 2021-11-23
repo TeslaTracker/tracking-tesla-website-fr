@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE_V2",
-            "STUD.TR_V2",
+            "STUD_3QTR_V2",
             "FRONT34",
             "SIDE",
             "REAR34",
@@ -225,9 +225,9 @@
             "SPOILER"
           ]
         },
-        "STUD.TR": {
+        "STUD_3QTR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD.TR",
+          "view": "STUD_3QTR",
           "size": 1441,
           "url": ""
         },
@@ -332,8 +332,8 @@
           "url": "",
           "relevant_groups": ["WHEELS", "PAINT", "TRIM", "INTERIOR_COLORWAY"]
         },
-        "STUD.TR_V2": {
-          "view": "STUD.TR_V2",
+        "STUD_3QTR_V2": {
+          "view": "STUD_3QTR_V2",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -753,7 +753,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": false,
-      "assetView": "STUD.TR",
+      "assetView": "STUD_3QTR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -765,11 +765,11 @@
             ]
           }
         },
-        { "view": "STUD.TR" }
+        { "view": "STUD_3QTR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD.TR_V2",
+        "view": "STUD_3QTR_V2",
         "bkba": 1,
         "zoom": 1.5
       },

@@ -110,7 +110,7 @@
       "views": {
         "STUD_SIDE": { "image_alt_description": "Side View" },
         "STUD_SIDEVIEW": { "image_alt_description": "Side View" },
-        "STUD.TR": { "image_alt_description": "Three Quater View" },
+        "STUD_3QTR": { "image_alt_description": "Three Quater View" },
         "FRONT34": { "image_alt_description": "Front View" },
         "STUD_FRONT34": { "image_alt_description": "Front View" },
         "RIMCLOSEUP": { "image_alt_description": "Rim Closeup View" },
@@ -470,7 +470,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": true,
-      "assetView": "STUD.TR",
+      "assetView": "STUD_3QTR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -482,7 +482,7 @@
             ]
           }
         },
-        { "view": "STUD.TR" }
+        { "view": "STUD_3QTR" }
       ],
       "asset": { "type": "image", "url": "CYBERTRUCK/NVRP_m.png" },
       "showLeaseSummaryFields": [],
