@@ -1,5 +1,5 @@
 {
-  "date": 1637682722880,
+  "date": 0,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -11,7 +11,7 @@
             "market": "FR",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -31,7 +31,7 @@
             "market": "FR",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -49,7 +49,7 @@
       "market": "FR",
       "app": "find-my-tesla",
       "isTcoEnabled": "0",
-      "date": "",
+      "date": 0,
       "seekret": "",
       "tags": "",
       "context": "",
@@ -110,7 +110,7 @@
       "views": {
         "STUD_SIDE": { "image_alt_description": "Side View" },
         "STUD_SIDEVIEW": { "image_alt_description": "Side View" },
-        "STUD_3QTR": { "image_alt_description": "Three Quater View" },
+        "STUD.TR": { "image_alt_description": "Three Quater View" },
         "FRONT34": { "image_alt_description": "Front View" },
         "STUD_FRONT34": { "image_alt_description": "Front View" },
         "RIMCLOSEUP": { "image_alt_description": "Rim Closeup View" },
@@ -470,7 +470,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": true,
-      "assetView": "STUD_3QTR",
+      "assetView": "STUD.TR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -482,7 +482,7 @@
             ]
           }
         },
-        { "view": "STUD_3QTR" }
+        { "view": "STUD.TR" }
       ],
       "asset": { "type": "image", "url": "CYBERTRUCK/NVRP_m.png" },
       "showLeaseSummaryFields": [],

@@ -1,5 +1,5 @@
 {
-  "date": 1637682643609,
+  "date": 0,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -11,7 +11,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -31,7 +31,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -51,7 +51,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -71,7 +71,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -91,7 +91,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -111,7 +111,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -129,7 +129,7 @@
       "market": "US",
       "app": "find-my-tesla",
       "isTcoEnabled": "0",
-      "date": "",
+      "date": 0,
       "seekret": "",
       "tags": "",
       "context": "",
@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE_V2",
-            "STUD_3QTR_V2",
+            "STUD.TR_V2",
             "FRONT34",
             "SIDE",
             "REAR34",
@@ -212,9 +212,9 @@
           "url": ""
         },
         "STUD_SIDEVIEW": { "image_alt_description": "Side View" },
-        "STUD_3QTR": {
+        "STUD.TR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD_3QTR",
+          "view": "STUD.TR",
           "size": 1441,
           "url": ""
         },
@@ -285,8 +285,8 @@
           "url": "",
           "relevant_groups": ["WHEELS", "PAINT", "TRIM", "INTERIOR_COLORWAY"]
         },
-        "STUD_3QTR_V2": {
-          "view": "STUD_3QTR_V2",
+        "STUD.TR_V2": {
+          "view": "STUD.TR_V2",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -706,7 +706,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": false,
-      "assetView": "STUD_3QTR",
+      "assetView": "STUD.TR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -718,11 +718,11 @@
             ]
           }
         },
-        { "view": "STUD_3QTR" }
+        { "view": "STUD.TR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD_3QTR_V2",
+        "view": "STUD.TR_V2",
         "bkba": 1,
         "zoom": 1
       },

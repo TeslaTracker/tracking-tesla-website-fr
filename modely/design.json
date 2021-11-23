@@ -1,5 +1,5 @@
 {
-  "date": 1637682609936,
+  "date": 0,
   "KeyManager": {
     "keys": {
       "Lexicon": [
@@ -11,7 +11,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -31,7 +31,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -51,7 +51,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -71,7 +71,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -91,7 +91,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -111,7 +111,7 @@
             "market": "US",
             "app": "find-my-tesla",
             "isTcoEnabled": "0",
-            "date": "",
+            "date": 0,
             "seekret": "",
             "tags": "",
             "context": "",
@@ -129,7 +129,7 @@
       "market": "US",
       "app": "find-my-tesla",
       "isTcoEnabled": "0",
-      "date": "",
+      "date": 0,
       "seekret": "",
       "tags": "",
       "context": "",
@@ -189,7 +189,7 @@
           "current": { "url": "", "view": "", "index": 0 },
           "available": [
             "STUD_SIDE",
-            "STUD_3QTR",
+            "STUD.TR",
             "SIDE",
             "FRONT34",
             "REAR34",
@@ -219,9 +219,9 @@
           ]
         },
         "STUD_SIDEVIEW": { "image_alt_description": "Side View" },
-        "STUD_3QTR": {
+        "STUD.TR": {
           "image_alt_description": "Three Quater View",
-          "view": "STUD_3QTR",
+          "view": "STUD.TR",
           "size": 1441,
           "url": "",
           "relevant_groups": [
@@ -745,7 +745,7 @@
       "showLegalConsent": [],
       "showPrpLink": false,
       "showVAT": false,
-      "assetView": "STUD_3QTR",
+      "assetView": "STUD.TR",
       "assetViewSource": [
         {
           "view": "FRONT34",
@@ -757,11 +757,11 @@
             ]
           }
         },
-        { "view": "STUD_3QTR" }
+        { "view": "STUD.TR" }
       ],
       "asset": {
         "type": "image-compositor",
-        "view": "STUD_3QTR",
+        "view": "STUD.TR",
         "bkba": 1,
         "zoom": 1
       },
@@ -3811,7 +3811,7 @@
             "type": "asset",
             "content": [
               {
-                "url": "MODEL3/UI/Chargeport_3Y.jpg",
+                "url": "MODEL3/UI/Chargeport..jpg",
                 "type": "image",
                 "ratio": "slice"
               }
@@ -4503,13 +4503,13 @@
             "type": "asset[0]",
             "content": [
               {
-                "url": "MODELY/UI/Config_7Seat_Black.jpeg",
+                "url": "MODELY/UI/Config.eat_Black.jpeg",
                 "type": "image",
                 "ratio": "slice",
                 "selected_by": { "and": ["$INPB1"] }
               },
               {
-                "url": "MODELY/UI/Config_7Seat_White.jpeg",
+                "url": "MODELY/UI/Config.eat_White.jpeg",
                 "type": "image",
                 "ratio": "slice",
                 "selected_by": { "and": ["$INPW1"] }
