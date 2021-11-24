@@ -1664,7 +1664,7 @@
           { "value": 4.92, "options": ["$MTY06", "$MTY11"] },
           { "value": 5.15, "options": ["$MT317", "$MT325"] },
           { "value": 5.33, "options": ["$MT304", "$MT311"] },
-          { "value": 4.89, "options": ["$MTY05"] },
+          { "value": 4.97, "options": ["$MTY05"] },
           { "value": 4.98, "options": ["$MTY04"] },
           { "value": 4.56, "options": ["$MTY03"] }
         ],
